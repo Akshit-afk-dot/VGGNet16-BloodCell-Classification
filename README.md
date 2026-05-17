@@ -54,10 +54,10 @@ Automated classification of white blood cells using **VGGNet-16 with Transfer Le
 
 ```
 VGGNet16-BloodCell-Classification/
-├── VGGNet16_BCCD_Assignment.ipynb   # Full training pipeline (Colab)
-├── README.md                         # This file
+├── VGGNet16_BCCD_Assignment.ipynb   
+├── README.md                        
 └── report/
-    └── VGGNet16_BCCD_Report.docx    # IEEE-format report
+    └── VGGNet16_BCCD_Report.docx   
 ```
 
 ---
@@ -74,9 +74,8 @@ The trained model weights (`vgg16_bccd_final.pth`) are hosted on Google Drive du
 ## How to Run
 
 ### 1. Open in Google Colab
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/VGGNet16-BloodCell-Classification/blob/main/VGGNet16_BCCD_Assignment.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Akshit-afk-dot/VGGNet16-BloodCell-Classification/blob/main/VGGNet16_BCCD_Assignment.ipynb)
 
-> Replace `YOUR_USERNAME` with your GitHub username.
 
 ### 2. Set up Kaggle API
 ```python
@@ -102,18 +101,6 @@ Pillow
 tqdm
 kaggle
 ```
-
----
-
-## Figures
-
-| Training Curves | Confusion Matrix |
-|---|---|
-| ![training](figures/training_curves.png) | ![cm](figures/confusion_matrix.png) |
-
-| ROC Curves | Sample Predictions |
-|---|---|
-| ![roc](figures/roc_curves.png) | ![pred](figures/predictions.png) |
 
 ---
 
